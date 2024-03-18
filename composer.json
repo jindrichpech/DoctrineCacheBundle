@@ -39,12 +39,12 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "symfony/phpunit-bridge": "^3.4|^4.0|^6.4",
-        "symfony/yaml": "^3.4|^4.0|6.4",
-        "symfony/validator": "^3.4|^4.0|6.4",
-        "symfony/console": "^3.4|^4.0|6.4",
-        "symfony/finder": "^3.4|^4.0|6.4",
-        "symfony/framework-bundle": "^3.4|^4.0|6.4"
+        "symfony/phpunit-bridge": "*",
+        "symfony/yaml": "^3.4|^4.0|^6.4",
+        "symfony/validator": "^3.4|^4.0|^6.4",
+        "symfony/console": "^3.4|^4.0|^6.4",
+        "symfony/finder": "^3.4|^4.0|^6.4",
+        "symfony/framework-bundle": "^3.4|^4.0|^6.4"
     },
     "autoload": {
         "psr-4": { "Doctrine\\Bundle\\DoctrineCacheBundle\\": "" },
