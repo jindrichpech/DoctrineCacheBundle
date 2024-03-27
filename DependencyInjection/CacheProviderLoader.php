@@ -1,7 +1,7 @@
 <?php
 namespace Doctrine\Bundle\DoctrineCacheBundle\DependencyInjection;
 
-use Doctrine\Common\Inflector\Inflector;
+use Doctrine\Inflector\Inflector;
 use Symfony\Component\DependencyInjection\Alias;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
