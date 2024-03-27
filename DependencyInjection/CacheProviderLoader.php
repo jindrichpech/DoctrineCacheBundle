@@ -2,6 +2,7 @@
 namespace Doctrine\Bundle\DoctrineCacheBundle\DependencyInjection;
 
 use Doctrine\Inflector\Inflector;
+use Doctrine\Inflector\NoopWordInflector;
 use Symfony\Component\DependencyInjection\Alias;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
