@@ -114,7 +114,7 @@ class CacheProviderLoader
             return $container->getParameter($this->getCustomDefinitionClassParameter($type));
         }
 
-        $name  = Inflector::classify($type) . 'Definition';
+        $name = (new Inflector(new NoopWordInflector(), new NoopWordInflector()))->classify($type) . 'Definition';
         $class = sprintf('%s\Definition\%s', __NAMESPACE__, $name);
 
         return $class;
